@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+    <main class = "main main--project">
+        <div>
+            <img
+                class="hero"
+                src="{{ url_for('static', filename=project['hero'] )}}"
+                alt="A song for Singapore"
+            />
+            <article class="project">
+                <article class="project__content">
+                    <h2 class="project__heading">{{ project['name'] }}</h2>
+                    <p>
+                        This project experiments with generating song lyrics using various deep learning architectures including GPT-2, trained on a corpus of Singapore patriotic songs. 
+                        We then used Jukebox, a pre-trained AI model developed by OpenAI to generate music and vocals from these lyrics. The final melodies and vocals were
+                        not amazing though so we had to sing the AI-generated song lyrics ourselves. At that time, GPT-2 was absolutely state-of-the-art so we thought that it will be
+                        quite awhile before AI is able to beat human music celebrities. With the advent of ChatGPT, the wait might be a very short one.
+                    </p>
+                </article>
+                <section>
+                    <article class="project__meta-group">
+                        <h3 class="project__heading project__heading--meta">Technologies used</h3>
+                        <ul class="technology-list">
+                            <li class="technology-list__item">Tensorflow</li>
+                            <li class="technology-list__item">GPT-2</li>
+                            <li class="technology-list__item">Jukebox</li>
+                            <li class="technology-list__item">NLTK</li>
+                            <li class="technology-list__item">Vader</li>
+                        </ul>
+                    </article>
+                    <a class="cta" href = "{{project['prod']}}">
+                        <img class="cta__icon" src="{{ url_for('static', filename='imgs/pointer.svg')}}">
+                        Visit GitHub page
+                    </a>
+                </section>
+            </article>
+        </div>
+    </main>
+{% endblock %}
