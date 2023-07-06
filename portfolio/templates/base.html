@@ -14,9 +14,9 @@
     <header class="header">
         <h1>Titus Lim</h1>
         <nav class="nav">
-            <a href="{{ url_for('home') }}" class="nav__link {{ 'nav__link--active' if request.path == url_for('home') }}">Projects</a>
-            <a href="{{ url_for('about') }}" class="nav__link {{ 'nav__link--active' if request.path == url_for('about') }}">About</a>
-            <a href="{{ url_for('contact') }}" class="nav__link {{ 'nav__link--active' if request.path == url_for('contact') }}">Contact</a>
+            <a href="{{ url_for('pages.home') }}" class="nav__link {{ 'nav__link--active' if request.path == url_for('pages.home') }}">Projects</a>
+            <a href="{{ url_for('pages.about') }}" class="nav__link {{ 'nav__link--active' if request.path == url_for('pages.about') }}">About</a>
+            <a href="{{ url_for('pages.contact') }}" class="nav__link {{ 'nav__link--active' if request.path == url_for('pages.contact') }}">Contact</a>
         </nav>
     </header>
     {% block content %}
