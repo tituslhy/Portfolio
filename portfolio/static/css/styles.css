@@ -102,12 +102,12 @@ dt{
     line-height: 2.25rem;
     color: #1c2023;
 }
-.project_card:hover .project-card__image{
+.project-card:hover .project-card__image {
     transform: translateY(-0.5rem);
-}
-.project_card:hover .project-card__name{
+  }
+  .project-card:hover .project-card__name {
     text-decoration: underline;
-}
+  }
 .categories{
     display:flex;
     padding:0;
@@ -124,7 +124,7 @@ dt{
 }
 .hero{
     max-width: 100%;
-    max-height: 200px;
+    max-height: 400px;
     margin-bottom:1.5rem;
     display: block;
     margin-left: auto;
