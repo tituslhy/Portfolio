@@ -54,6 +54,14 @@ projects = [
         "categories": ["computer vision","machine learning engineering"],
         "slug": "facemask",
         "prod": "https://github.com/tituslhy/Face-mask-classification"
+    },
+    {
+        "name": "Videomaker",
+        "thumb": "imgs/AI_gift.png",
+        "hero":"imgs/AI_gift.png",
+        "categories": ["automatic speech recognition","natural language processing"],
+        "slug": "AI_gift",
+        "prod": "https://github.com/tituslhy/VideoMaker"
     }
 ]
 
