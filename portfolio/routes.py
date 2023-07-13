@@ -62,6 +62,14 @@ projects = [
         "categories": ["automatic speech recognition","natural language processing"],
         "slug": "AI_gift",
         "prod": "https://github.com/tituslhy/VideoMaker"
+    },
+    {
+        "name": "Watchlist",
+        "thumb": "imgs/movie.png",
+        "hero":"imgs/movie.png",
+        "categories": ["Full Stack Web Development","Hashing", "MongoDB"],
+        "slug": "Watchlist",
+        "prod": "https://github.com/tituslhy/watchlist"
     }
 ]
 
