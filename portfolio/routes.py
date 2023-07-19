@@ -56,12 +56,12 @@ projects = [
         "prod": "https://github.com/tituslhy/Face-mask-classification"
     },
     {
-        "name": "Videomaker",
+        "name": "GiftMaker",
         "thumb": "imgs/AI_gift.png",
         "hero":"imgs/AI_gift.png",
         "categories": ["automatic speech recognition","natural language processing"],
         "slug": "AI_gift",
-        "prod": "https://github.com/tituslhy/VideoMaker"
+        "prod": "https://github.com/tituslhy/GiftMaker"
     },
     {
         "name": "Watchlist",
